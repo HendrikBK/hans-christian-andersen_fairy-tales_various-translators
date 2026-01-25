@@ -29,104 +29,129 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Fairy Tales</dc:title>
 		<meta property="file-as" refines="#title">Fairy Tales</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<dc:subject id="subject-1">Fairy tales</dc:subject>
+		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<dc:subject id="subject-2">Fairy tales -- Denmark</dc:subject>
+		<meta property="authority" refines="#subject-2">LCHS</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<dc:subject id="subject-3">Children's stories, Danish -- Translations into English</dc:subject>
+		<meta property="authority" refines="#subject-3">LCHS</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="se:subject">Children’s</meta>
+		<meta property="se:subject">Fantasy</meta>
+		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<!-- Hans Andersen's Fairy Tales (H. B. Paull) -->
+		<dc:source>https://en.wikisource.org/wiki/Hans_Andersen%27s_Fairy_Tales</dc:source>
+		<dc:source>https://ufdc.ufl.edu/UF00065392/00001</dc:source>
+		<!-- Hans Andersen's Fairy Tales. First Series (J. H. Stickney) -->
+		<dc:source>https://www.gutenberg.org/ebooks/32571</dc:source>
+		<dc:source>https://archive.org/details/hansandersensfai01anderich</dc:source>
+		<!-- Hans Andersen's Fairy Tales. Second Series (J. H. Stickney) -->
+		<dc:source>https://www.gutenberg.org/ebooks/32572</dc:source>
+		<dc:source>archive.org/details/hansandersensfa01andegoog</dc:source>
+		<!-- Fairy Tales and Other Stories (W. A. Craigie, J. K. Craigie) -->
+		<dc:source>https://en.wikisource.org/wiki/Fairy_Tales_and_Other_Stories_%28Andersen,_Craigie%29</dc:source>
+		<dc:source>https://archive.org/details/fairytalesothers00ande</dc:source>
+		<!-- The Little Mermaid and Other Stories (R. Nisbet Bain) -->
+		<dc:source>https://ufdc.ufl.edu/UF00082310/00001</dc:source>
+		<!-- A Picture Book without Pictures and Other Stories (Mary Howitt) -->
+		<dc:source>https://en.wikisource.org/wiki/A_Picture-Book_without_Pictures_and_Other_Stories/A_Picture-Book_without_Pictures</dc:source>
+		<dc:source>https://archive.org/details/picturebookwitho00ande/page/n7/mode/2up</dc:source>
+		<!-- The Ice-Maiden and Other Tales (Fanny Fuller) -->
+		<dc:source>https://www.gutenberg.org/ebooks/18604</dc:source>
+		<dc:source>https://archive.org/details/icemaidenandoth01andegoog</dc:source>
+		<!-- Fairy tales and stories (Hans Lien Brækstad) -->
+		<dc:source>https://en.wikisource.org/wiki/Fairy_tales_and_stories_%28Andersen,_Tegner%29</dc:source>
+		<dc:source>https://archive.org/details/fairytalesstorie00ande</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Fairy_Tales</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/hans-christian-andersen_fairy-tales_robert-nisbet-bain_hans-lien-braekstad_j-k-craigie_w-a-craigie_f</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/hans-christian-andersen_fairy-tales_various-translators</meta>
 		<dc:creator id="author">Hans Christian Andersen</dc:creator>
 		<meta property="file-as" refines="#author">Andersen, Hans Christian</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Hans_Christian_Andersen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79022941</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Robert Nisbet Bain</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Bain, Robert Nisbet</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Robert_Nisbet_Bain</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n50021153</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
-		<dc:contributor id="translator-2">Hans Lien Braekstad</dc:contributor>
-		<meta property="file-as" refines="#translator-2">Braekstad, Hans Lien</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">win</meta>
+		<dc:contributor id="translator-2">Hans Lien Brækstad</dc:contributor>
+		<meta property="file-as" refines="#translator-2">Brækstad, Hans Lien</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/nr2006015020</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">J. K. Craigie</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Craigie, J. K.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-3">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-3">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator-3">Jessie Kinmond Craigie</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-4">W. A. Craigie</dc:contributor>
 		<meta property="file-as" refines="#translator-4">Craigie, W. A.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-4">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">https://en.wikipedia.org/wiki/W._A._Craigie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-4">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator-4">William Alexander Craigie</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">https://en.wikipedia.org/wiki/William_Craigie</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/n83232178</meta>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-5">Fanny Fuller</dc:contributor>
 		<meta property="file-as" refines="#translator-5">Fuller, Fanny</meta>
-		<meta property="se:name.person.full-name" refines="#translator-5">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-5">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-5">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-5">http://id.loc.gov/authorities/names/nr90001307</meta>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-6">Mary Howitt</dc:contributor>
 		<meta property="file-as" refines="#translator-6">Howitt, Mary</meta>
-		<meta property="se:name.person.full-name" refines="#translator-6">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-6">https://en.wikipedia.org/wiki/Mary_Howitt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-6">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-6">http://id.loc.gov/authorities/names/n50029222</meta>
 		<meta property="role" refines="#translator-6" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-7">H. B. Paull</dc:contributor>
 		<meta property="file-as" refines="#translator-7">Paull, H. B.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-7">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-7">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-7">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator-7">Susanna Mary Paull</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-7">https://en.wikipedia.org/wiki/Susanna_Mary_Paull</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-7">http://id.loc.gov/authorities/names/n83056300</meta>
 		<meta property="role" refines="#translator-7" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-8">J. H. Stickney</dc:contributor>
 		<meta property="file-as" refines="#translator-8">Stickney, J. H.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-8">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-8">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-8">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator-8">Jenny H. Stickney</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-8">http://id.loc.gov/authorities/names/no91020764</meta>
 		<meta property="role" refines="#translator-8" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">John William Waterhouse</dc:contributor>
+		<meta property="file-as" refines="#artist">Waterhouse, John William</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_William_Waterhouse</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79044158</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Sharon Joiner</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Joiner, Sharon</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">Emmy</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Emmy</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-4">David Edwards</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Edwards, David</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Jeannie Howse</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Howse, Jeannie</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-6">https://en.wikisource.org/</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Hendrik Kaiber</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Kaiber, Hendrik</meta>
+		<meta property="se:name.person.full-name" refines="#producer-1">Hendrik de Wetterle Bonow Kaiber</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
