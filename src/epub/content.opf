@@ -151,6 +151,7 @@
 		<item href="text/elder-tree-mother.xhtml" id="elder-tree-mother.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/everything-in-its-right-place.xhtml" id="everything-in-its-right-place.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/good-luck-can-lie-in-a-pin.xhtml" id="good-luck-can-lie-in-a-pin.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/grandmother.xhtml" id="grandmother.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/holger-danske.xhtml" id="holger-danske.xhtml" media-type="application/xhtml+xml"/>
@@ -253,6 +254,7 @@
 		<item href="text/the-ugly-duckling.xhtml" id="the-ugly-duckling.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-wicked-prince.xhtml" id="the-wicked-prince.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-wild-swans.xhtml" id="the-wild-swans.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-will-o-the-wisps-are-in-town.xhtml" id="the-will-o-the-wisps-are-in-town.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/under-the-willow-tree.xhtml" id="under-the-willow-tree.xhtml" media-type="application/xhtml+xml"/>
@@ -371,8 +373,10 @@
 		<itemref idref="the-snowdrop.xhtml"/>
 		<itemref idref="the-teapot.xhtml"/>
 		<itemref idref="the-golden-treasure.xhtml"/>
+		<itemref idref="the-will-o-the-wisps-are-in-town.xhtml"/>
 		<itemref idref="the-greenies.xhtml"/>
 		<itemref idref="the-dyad.xhtml"/>
+		<itemref idref="good-luck-can-lie-in-a-pin.xhtml"/>
 		<itemref idref="the-thistle-experiences.xhtml"/>
 		<itemref idref="sunshine-stories.xhtml"/>
 		<itemref idref="what-happened-to-the-thistle.xhtml"/>
