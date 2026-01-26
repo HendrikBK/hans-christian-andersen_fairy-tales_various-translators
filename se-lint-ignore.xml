@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="*.xhtml">
+		<ignore>
+			<code>s-033</code>
+			<reason>The language of most of stories is en-GB, but a few are in en-US.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
