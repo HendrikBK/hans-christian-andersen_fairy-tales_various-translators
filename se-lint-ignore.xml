@@ -6,4 +6,10 @@
 			<reason>The language of most of stories is en-GB, but a few are in en-US.</reason>
 		</ignore>
 	</file>
+	<file path="a-cheerful-temper.xhtml">
+		<ignore>
+			<code>s-060</code>
+			<reason>Besides being a song, the passage in question is also in Italian, so both italics and quotes are appropriate.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
