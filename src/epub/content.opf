@@ -156,6 +156,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wfw</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -179,6 +180,7 @@
 		<item href="text/elder-tree-mother.xhtml" id="elder-tree-mother.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/everything-in-its-right-place.xhtml" id="everything-in-its-right-place.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword.xhtml" id="foreword.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/good-luck-can-lie-in-a-pin.xhtml" id="good-luck-can-lie-in-a-pin.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/grandmother.xhtml" id="grandmother.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
@@ -209,8 +211,8 @@
 		<item href="text/the-daisy.xhtml" id="the-daisy.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-darning-needle.xhtml" id="the-darning-needle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-drop-of-water.xhtml" id="the-drop-of-water.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-dumb-book.xhtml" id="the-dumb-book.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-dryad.xhtml" id="the-dryad.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-dumb-book.xhtml" id="the-dumb-book.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-elf-on-the-rose.xhtml" id="the-elf-on-the-rose.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-elfin-hill.xhtml" id="the-elfin-hill.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-emperors-new-clothes.xhtml" id="the-emperors-new-clothes.xhtml" media-type="application/xhtml+xml"/>
@@ -293,6 +295,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="foreword.xhtml"/>
 		<itemref idref="introduction.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="little-claus-and-big-claus.xhtml"/>
