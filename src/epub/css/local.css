@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Verse and song */
 [epub|type~="z3998:hymn"] p,
@@ -47,4 +48,9 @@ footer{
 
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+}
+
+/* Block level italics */
+blockquote[xml|lang]{
+	font-style: italic;
 }
