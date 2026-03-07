@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="*.xhtml">
+	<file path="sunshine-stories.xhtml">
 		<ignore code="s-033">
-			<reason>The language of most of stories is en-GB, but a few are in en-US.</reason>
+			<line>2</line>
+			<reason>The language of most of stories is en-GB, but this one is in En-US.</reason>
+		</ignore>
+	</file>
+	<file path="the-drop-of-water.xhtml">
+		<ignore code="s-033">
+			<line>2</line>
+			<reason>The language of most of stories is en-GB, but this one is in En-US.</reason>
+		</ignore>
+	</file>
+	<file path="the-greenies.xhtml">
+		<ignore code="s-033">
+			<line>2</line>
+			<reason>The language of most of stories is en-GB, but this one is in En-US.</reason>
+		</ignore>
+	</file>
+	<file path="the-real-princess.xhtml">
+		<ignore code="s-033">
+			<line>2</line>
+			<reason>The language of most of stories is en-GB, but this one is in En-US.</reason>
+		</ignore>
+	</file>
+	<file path="the-teapot.xhtml">
+		<ignore code="s-033">
+			<line>2</line>
+			<reason>The language of most of stories is en-GB, but this one is in En-US.</reason>
+		</ignore>
+	</file>
+	<file path="what-happened-to-the-thistle.xhtml">
+		<ignore code="s-033">
+			<line>2</line>
+			<reason>The language of most of stories is en-GB, but this one is in En-US.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
