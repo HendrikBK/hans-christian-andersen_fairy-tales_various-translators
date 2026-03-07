@@ -42,7 +42,7 @@
 		<meta property="se:subject">Fantasy</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<dc:description id="description">A Collection of fairy tales by Hans Christian Andersen, ordered by their original date of publication.</dc:description>
+		<dc:description id="description">A collection of fairy tales by Hans Christian Andersen, ordered by their original date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/hans-christian-andersen"&gt;Hans Christian Andersen&lt;/a&gt; is arguably one of the most famous authors in the world. Originally written in his native Danish, his stories were, already during his lifetime, translated into several different languages, becoming a household name in several nations.&lt;/p&gt;
 			&lt;p&gt;His fairy tales deal with a large diversity of themes, settings and characters, ranging from simple children’s stories to tales with social commentary about poverty and inequality. Although these kinds of stories are mostly associated with children today, they were derived from older oral traditions of folktales.&lt;/p&gt;
