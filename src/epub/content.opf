@@ -73,6 +73,7 @@
 		<!-- Fairy tales and stories (Hans Lien Brækstad) -->
 		<dc:source>https://en.wikisource.org/wiki/Fairy_tales_and_stories_%28Andersen,_Tegner%29</dc:source>
 		<dc:source>https://archive.org/details/fairytalesstorie00ande</dc:source>
+		<meta property="se:production-notes">A foreword was added to this edition. In there, the places of origin of the translations are listed.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Fairy_Tales</meta>
