@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 830">
-	<title>The titlepage for the Standard Ebooks edition of Fairy Tales, by Hans Christian Andersen. Translated by Robert Nisbet Bain, Hans Lien Brækstad, J. K. Craigie, W. A. Craigie, Fanny Fuller, Mary Howitt, H. B. Paull, and J. H. Stickney</title>
+	<title>The titlepage for the Standard Ebooks edition of Fairy Tales, by Hans Christian Andersen. Translated by Robert Nisbet Bain, Hans Lien Brækstad, J. K. Craigie, W. A. Craigie, Fanny Fuller, Mary Howitt, J. H. Stickney, and Susanna Mary Paull</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -31,8 +31,8 @@
 	<text class="author" x="700" y="290">HANS CHRISTIAN ANDERSEN</text>
 	<text class="contributor-descriptor" x="700" y="480">translated by</text>
 	<text class="contributor" x="700" y="540">ROBERT NISBET BAIN,</text>
-	<text class="contributor" x="700" y="600">HANS LIEN BRÆKSTAD,</text>
-	<text class="contributor" x="700" y="660">J. K. CRAIGIE, W. A. CRAIGIE,</text>
-	<text class="contributor" x="700" y="720">FANNY FULLER, MARY HOWITT,</text>
-	<text class="contributor" x="700" y="780">H. B. PAULL, AND J. H. STICKNEY</text>
+	<text class="contributor" x="700" y="600">HANS LIEN BRÆKSTAD, J. K. CRAIGIE,</text>
+	<text class="contributor" x="700" y="660">W. A. CRAIGIE, FANNY FULLER,</text>
+	<text class="contributor" x="700" y="720">MARY HOWITT, J. H. STICKNEY,</text>
+	<text class="contributor" x="700" y="780">AND SUSANNA MARY PAULL</text>
 </svg>

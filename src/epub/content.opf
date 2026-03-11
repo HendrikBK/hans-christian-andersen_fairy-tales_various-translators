@@ -113,9 +113,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-6">https://en.wikipedia.org/wiki/Mary_Howitt</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-6">http://id.loc.gov/authorities/names/n50029222</meta>
 		<meta property="role" refines="#translator-6" scheme="marc:relators">trl</meta>
-		<dc:contributor id="translator-7">H. B. Paull</dc:contributor>
-		<meta property="file-as" refines="#translator-7">Paull, H. B.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-7">Susanna Mary Paull</meta>
+		<dc:contributor id="translator-7">Susanna Mary Paull</dc:contributor>
+		<meta property="file-as" refines="#translator-7">Paull, Susanna Mary</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-7">https://en.wikipedia.org/wiki/Susanna_Mary_Paull</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-7">http://id.loc.gov/authorities/names/n83056300</meta>
 		<meta property="role" refines="#translator-7" scheme="marc:relators">ann</meta>
